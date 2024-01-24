@@ -10,10 +10,10 @@ def generate_launch_description():
     config = os.path.join(
         get_package_share_directory('mocap_client'),
         'config',
-        'parms.yaml'
+        'params.yaml'
         )
         
-    node=Node(
+    node = Node(
         package = 'mocap_client',
         name = 'mocap_client',
         executable = 'mocap_client',
