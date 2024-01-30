@@ -1,6 +1,6 @@
 mocap_client:
   ros__parameters:
-    # Dummy parametrs for testing
+    # Dummy parameters for testing
     dummy_send: false #true. Set it to false to connect to the mocap.
     send_rate: 100
     number_of_bodies: 1 # Same values will be sent for all the bodies
